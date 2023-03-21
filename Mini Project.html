@@ -1,0 +1,28 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1> Mini Project </h1>
+
+<h2>Upload an image and tap on filters below for some <br><b>MAGIC</b></h2>
+
+<canvas id="canvas">
+</canvas>
+
+<p>
+  Image: <input type="file" multiple="false" value="image" accept="image/*" id="upload" onchange="loadImage()">
+</p>
+
+<p> Ordinary Filters:
+  <input type="button" value="Gray" id="Gray" onclick="doGray()">
+  <input type="button" value="Red Hue" id="Red" onclick="doRed()">
+  <input type="button" value="Swap Green to Red" id="Swap" onclick="doSwap()">
+</p>
+
+<p> Damn-Hard-to-Comprehend Filters:
+  <input type="button" value="Rainbow" id="Rainbow" onclick="doRainbow()">
+  <input type="button" value="Blur" id="Blur" onclick="doBlur()">
+</p>
+
+<p> Reset:
+  <input type="button" value="Reset Image" id="reset" onclick="resetImage()">
+</p>
