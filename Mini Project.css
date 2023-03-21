@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  background-color: #1F305E;
+  font-family: 'Indie Flower';
+  text-align: center
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #005F69;
+  margin: 15px;
+  height: 250px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#upload {
+  background-color: #005F69;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+}
+
+#Gray {
+  background-color: Gray;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+}
+
+#Red {
+  background-color: #C40223;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+}
+
+#Swap {
+  background-color: #009E60;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+}
+
+#Rainbow {
+  background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';  
+}
+
+#Blur {
+  background-color: #FDEE00;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';  
+}
+
+#reset {
+  background-color: #005F69;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Indie Flower';
+  color: white;
+}
+
+b {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
