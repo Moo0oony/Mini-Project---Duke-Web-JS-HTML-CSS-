@@ -218,4 +218,3 @@ function doBlur() {
   }
   blurImage.drawTo(canvas);
 }
-
